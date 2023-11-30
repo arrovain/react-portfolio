@@ -55,11 +55,11 @@ const Iletisim = () => {
         <motion.div className="formcontainer">
             <motion.form ref={formRef}
             onSubmit={sendEmail}>
-                <input type="text" required placeholder='İsim' name='name'/>
-                <input type="text" required placeholder='Email' name='email'/>
-                <textarea rows={8} placeholder='Mesaj' name='message'/>
+                <input type="text" required placeholder='İsminiz' name='name'/>
+                <input type="text" required placeholder='Emailiniz' name='email'/>
+                <textarea rows={8} placeholder='Mesajınız' name='message'/>
                 <button>Gönder</button>
-                {error && 'Error'}
+                {error && 'Bir hata oldu'}
                 {success && 'Başarılı bir şekilde iletildi'}
             </motion.form>
         </motion.div>
