@@ -3,10 +3,10 @@ import './gecis.scss'
 
 const Gecis = () => {
   return (
-    <div className='Gecis'>YAZILIM BİLGİM NEDİR?
-     <img className='mountain' src='mountains.png'></img>
-      <img className='planer' src='planet.png'></img>
-      <img className='stars' src='stars.png'></img></div>
+    <div className='Gecis'><h1>YAZILIM BİLGİM</h1>
+     <img className='mountain' src='mountains.png' alt=''></img>
+      <img className='planer' src='planet.png' alt=''></img>
+      <img className='stars' src='stars.png' alt=''></img></div>
   )
 }
 
