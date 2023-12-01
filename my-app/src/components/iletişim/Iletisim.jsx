@@ -6,21 +6,6 @@ import { useRef } from 'react';
 
 
 
-const variants = {
-    initial:{
-        y:500,
-        opacity:0
-    },
-    animate:{
-        y:0,
-        opacity:1,
-        transition:{
-            duration:0.5,
-            staggerChildren: 0.1,
-        },
-    },
-};
-
 
 
 const Iletisim = () => {
@@ -39,10 +24,10 @@ const Iletisim = () => {
           });
       };
   return (
-    <motion.div className='iletisim' variants={variants} initial='initial' whileInView='animate'>
-        <motion.div className="textContainer" variants={variants}>
-            <motion.h1 variants={variants}>Benimle İletişime Geçin</motion.h1>
-            <motion.div className="item" variants={variants}>
+    <motion.div className='iletisim' initial='initial' whileInView='animate'>
+        <motion.div className="textContainer" >
+            <motion.h1 >Benimle İletişime Geçin</motion.h1>
+            <motion.div className="item" >
                 <h2>Mail</h2>
                 <span>arrovain@gmail.com</span>
             </motion.div>
