@@ -30,8 +30,8 @@ const Anasayfa = () => {
         Çoğunlukla React ve Tailwind kullanarak web siteleri ve uygulamaları geliştiren bir frontend developer.
       </p>
       <motion.div variants={variants} className="buttons">
-        <motion.button>Projelerime Ulaşın</motion.button>
-        <motion.button>Benimle İletişime Geçin</motion.button>
+        <motion.a className='button' href="https://github.com/arrovain" >Projelerime Ulaşın</motion.a>
+        <motion.a href="mailto:arrovain@gmail.com" className='button'>Benimle İletişime Geçin</motion.a>
         <motion.img variants={variants} initial='initial' whileInView='animate' className='yazilimci-img' src='5969474.png' alt=''></motion.img>
       </motion.div>
       

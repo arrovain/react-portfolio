@@ -26,7 +26,7 @@ const Iletisim = () => {
   return (
     <motion.div className='iletisim' initial='initial' whileInView='animate'>
         <motion.div className="textContainer" >
-            <motion.h1 >Benimle İletişime Geçin</motion.h1>
+            <motion.h1  >Benimle İletişime Geçin</motion.h1>
             <motion.div className="item" >
                 <h2>Mail</h2>
                 <span>arrovain@gmail.com</span>

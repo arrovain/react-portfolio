@@ -122,6 +122,72 @@ const Bilgim = () => {
             </figure>
             <span class="language__name">MySQL</span>
           </div>
+          <div class="language">
+            <figure class="language__img--wrapper">
+              <img
+                src="nodejslogo.svg"
+                alt="node.js Logo"
+                class="language__img"
+              />
+            </figure>
+            <span class="language__name">Node.js</span>
+            
+          </div>
+          <div class="language">
+            <figure class="language__img--wrapper">
+              <img
+                src="nextjs.svg"
+                alt="next.js Logo"
+                class="language__img"
+              />
+            </figure>
+            <span class="language__name">Next.js</span>
+            
+          </div>
+          <div class="language">
+            <figure class="language__img--wrapper">
+              <img
+                src="icons8-vite-240.png"
+                alt="Vite Logo"
+                class="language__img"
+              />
+            </figure>
+            <span class="language__name">Vite</span>
+            
+          </div>
+          <div class="language">
+            <figure class="language__img--wrapper">
+              <img
+                src="threejs-1.svg"
+                alt="Threejs Logo"
+                class="language__img"
+              />
+            </figure>
+            <span class="language__name">Three.js</span>
+            
+          </div>
+          <div class="language">
+            <figure class="language__img--wrapper">
+              <img
+                src="styled-components.svg"
+                alt="styledcomponents Logo"
+                class="language__img"
+              />
+            </figure>
+            <span class="language__name">Styled-Components</span>
+            
+          </div>
+          <div class="language">
+            <figure class="language__img--wrapper">
+              <img
+                src="framer-motion.svg"
+                alt="framermotion Logo"
+                class="language__img"
+              />
+            </figure>
+            <span class="language__name">FramerMotion</span>
+            
+          </div>
         </div>
       </div>
     </div>
