@@ -188,6 +188,17 @@ const Bilgim = () => {
             <span class="language__name">FramerMotion</span>
             
           </div>
+          <div class="language">
+            <figure class="language__img--wrapper">
+              <img
+                src="seo.png"
+                alt="Seo Logo"
+                class="language__img"
+              />
+            </figure>
+            <span class="language__name">Seo</span>
+            
+          </div>
         </div>
       </div>
     </div>
