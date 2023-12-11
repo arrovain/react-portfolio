@@ -199,6 +199,18 @@ const Bilgim = () => {
             <span class="language__name">Seo</span>
             
           </div>
+          <div class="language">
+            <figure class="language__img--wrapper">
+              <img
+                src="1175544_firebase_google_icon.png"
+                alt="Firebase Logo"
+                class="language__img"
+              />
+            </figure>
+            <span class="language__name">Firebase</span>
+            
+          </div>
+         
         </div>
       </div>
     </div>
