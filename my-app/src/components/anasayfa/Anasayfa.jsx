@@ -31,7 +31,7 @@ const Anasayfa = () => {
       </p>
       <motion.div variants={variants} className="buttons">
         <motion.a className='button' href="https://github.com/arrovain" >Projelerime Ulaşın</motion.a>
-        <motion.a href="mailto:arrovain@gmail.com" className='button'>Benimle İletişime Geçin</motion.a>
+        <motion.a href="mailto:arrovain@gmail.com" className='button'>İletişim</motion.a>
         <motion.img variants={variants} initial='initial' whileInView='animate' className='yazilimci-img' src='5969474.png' alt=''></motion.img>
       </motion.div>
       
