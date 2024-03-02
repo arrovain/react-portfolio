@@ -27,7 +27,7 @@ const Anasayfa = () => {
       <h2>Mahmut İÇME</h2>
       <h1>Frontend Developer</h1>
       <p>
-        Çoğunlukla React ve Tailwind kullanarak web siteleri ve uygulamaları geliştiren bir frontend developer.
+       React ve Tailwind kullanarak web siteleri ve uygulamaları geliştiren bir frontend developer.
       </p>
       <motion.div variants={variants} className="buttons">
         <motion.a className='button' href="https://github.com/arrovain" >Projelerime Ulaşın</motion.a>
